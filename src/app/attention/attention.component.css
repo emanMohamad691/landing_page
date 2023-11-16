@@ -1,0 +1,198 @@
+.attention-section{
+    background-image: url("https://www.elzekracademy.com/assets/img/event/event-bg.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 100px;
+}
+
+.attention-section::before{
+content: "";
+position: absolute;
+top: 0;
+left:0;
+width: 100%;
+height: 100%;
+background-color: black;
+opacity: 0.3;
+z-index: -1;
+}
+
+.attention-container{
+    padding-top: 5rem;
+   margin-bottom: 3rem;
+
+}
+
+.attention-container span{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.attention-container h3{
+    font-size: 45px;
+    margin-top: 15px;
+    margin-bottom: 14px;
+}
+
+.attention-container p{
+    color: #ffff;
+    font-weight: 700;
+}
+
+img{
+    max-width: 100%;
+    display: inline-block;
+    height: auto;
+    vertical-align: middle;
+}
+
+.right-part{
+    display: flex;
+    background-color: #ffffff;
+    padding:1rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-bottom: 6rem;
+
+}
+
+.img-style{
+    width: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.h3-and-ul-style{
+    width: 65%;
+}
+.h3-and-ul-style h3{
+    padding-right: 1.5rem;
+    padding-bottom: 1rem;
+    
+}
+
+li{
+    margin-bottom: 0.5rem;
+    list-style-type: circle;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* ////////////////////////////////////////////////////////// */
+
+
+@media (min-width:1220px) and  (max-width:1364px){
+   .attention-container h3{
+    font-size: 41px;
+   }
+
+   ul{
+    padding-left: 2.5rem;
+   }
+   
+ }
+ 
+ /* //////////////////////////////////////////////////////// */
+ 
+ @media (min-width:1100px) and (max-width:1220px){
+    .attention-container h3{
+        font-size: 35px;
+       }
+      
+       ul{
+        padding-left: 1rem;
+       }
+ }
+ 
+ /* ///////////////////////////////////////////////////////// */
+ @media (min-width:992px) and (max-width:1100px){
+   
+    .attention-container h3{
+        font-size: 26px;
+       }
+       .h3-style{
+        font-size: 26px;
+       }
+       ul{
+        padding-left: 4rem;
+       }
+ 
+     }
+ 
+ /* //////////////////////////////////////////// */
+ 
+ @media (min-width:799px) and (max-width:992px){
+    .attention-container h3{
+        font-size: 40px;
+       }
+ 
+     
+ }
+ 
+ /* ////////////////////////////////////////////////////////// */
+ 
+ @media (min-width:620px)  and (max-width:799px){
+    .attention-container h3{
+        font-size: 30px;
+       }
+   
+ }
+ /* //////////////////////////////////////////////////// */
+ 
+ @media (min-width:500px) and (max-width:620px){
+    .attention-container h3{
+        font-size: 25px;
+       }
+ }
+ /* /////////////////////////////////////////////////// */
+ @media (min-width:300px) and (max-width:500px){
+    .attention-container h3{
+        font-size: 22px;
+       }
+
+    .attention-container p{
+        font-size: 13px;
+    }   
+
+    .h3-style{
+        font-size: 21px;
+        text-align: center;
+       
+    }
+    .h3-and-ul-style{
+        width: 100%;
+      
+    }
+
+    .h3-and-ul-style h3 {
+        padding-right: 0;
+        padding-bottom: 0;
+        margin: 0.5rem 0;
+    }
+    
+    li{
+        font-size: 13px;
+    }
+
+    .right-part{
+        display: block;
+
+    }
+
+    .img-style {
+        width: 40%;
+        margin: auto;
+    }
+
+ }
+
+ 

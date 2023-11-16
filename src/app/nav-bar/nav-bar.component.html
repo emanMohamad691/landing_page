@@ -1,0 +1,42 @@
+<!-- nav bar -->
+
+<nav class="navbar navbar-expand-xl big-nav" [class.fixed]="isNavbarFixed" >
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 navBar-logo  ">
+                <a class="navbar-brand  " (click)="scrollToTarget('goToHeader')"><img class="brand-image" src="https://www.elzekracademy.com/assets/img/logomid.png" ></a>
+              
+            </div>
+
+            <button class="navbar-toggler button-collapes" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+              
+              <div class=" col-lg-6 collapse navbar-collapse   " id="navbarTogglerDemo02">
+                <ul class="navbar-nav nav-item-col2 ">
+                  <li class="nav-item">
+                    <a class="nav-link home " aria-current="page" (click)="scrollToTarget('goToHeader')">الرئيسة</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav-bar-item"  (click)="scrollToTarget('goToWhoAre')">من نحن</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav-bar-item " (click)="scrollToTarget('goToWhyWe')" >خدماتنا</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav-bar-item "(click)="scrollToTarget('goToOpinions')" >الاراء</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav-bar-item "(click)="scrollToTarget('goToCertifi')" >شهادات</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav-bar-item "(click)="scrollToTarget('goToOffers')" >الباقات</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav-bar-item " (click)="scrollToTarget('goToContactUs')" >تواصل معنا</a>
+                  </li>
+                </ul>
+              </div>
+              </div>
+        </div>
+  </nav>

@@ -1,0 +1,311 @@
+.offers-cntainer{
+    margin-bottom: 5rem;
+   padding-top: 100px;
+}
+
+.header-container span{
+    font-size: 20px;
+    color: #ea512e;
+    font-weight: 600;
+}
+
+.header-container h2
+{
+    font-size: 45px;
+    margin-top: 15px;
+    margin-bottom: 14px;
+}
+
+.circle-div{
+    width: 402px;
+    height: 354px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #fde8c9;
+    text-align: center;
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square-div{
+    background-color: #ffffff;
+    padding: 2rem 3.5rem;
+    position: relative;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
+    margin-bottom: 2rem;
+
+}
+.square-div ul li{
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.square-div h3{
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 1rem;
+}
+
+.square-div a{
+    display: inline-block;
+    padding: 12px 40px;
+    background-color: #ea512e;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    cursor: pointer;
+}
+
+.square-div a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:  #f5890d;
+    height: 0%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    z-index: -1;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+}
+
+.square-div a:hover{
+    color: #ffffff;
+}
+
+.square-div a:hover::before{
+    height: 100%;
+}
+
+.square-div div{
+    background-color: #ea512e;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #ffffff;
+    border-bottom-right-radius: 10px;
+    padding-top: 0.7rem;
+    padding-bottom: 0.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.square-div:hover div{
+    color: #ffffff;
+    transition: 0.5;
+    -webkit-transition: 0.5;
+    -moz-transition: 0.5;
+    -ms-transition: 0.5;
+    -o-transition: 0.5;
+    transform:scale(1.2) rotate(2deg);
+    -webkit-transform:scale(1.2) rotate(2deg);
+    -moz-transform:scale(1.2) rotate(2deg);
+    -ms-transform:scale(1.2) rotate(2deg);
+    -o-transform:scale(1.2) rotate(2deg);
+    background-color: #f5890d;
+}
+
+/* //////////////////////////////////////////////////////// */
+
+@media (min-width:1220px) and  (max-width:1400px){
+    .header-container h2{
+     font-size: 41px;
+    }
+    .circle-div{
+        width: 367px;
+    }
+    
+  }
+  
+  /* //////////////////////////////////////////////////////// */
+  
+  @media (min-width:1100px) and (max-width:1220px){
+     .header-container h2{
+         font-size: 35px;
+        }
+
+        .circle-div{
+           width: 308px;
+        }
+
+        .square-div{
+            padding: 2rem 0.5rem;
+        }
+  }
+  
+  /* ///////////////////////////////////////////////////////// */
+  @media (min-width:992px) and (max-width:1100px){
+    
+     .header-container h2{
+         font-size: 26px;
+        }
+        .circle-div{
+            width: 308px;
+         }
+ 
+         .square-div{
+             padding: 2rem 0.5rem;
+         }
+      }
+  
+  /* //////////////////////////////////////////// */
+  
+  @media (min-width:799px) and (max-width:992px){
+     .header-container h2{
+         font-size: 40px;
+        }
+        .circle-div{
+            width: 345px;
+         }
+ 
+         .square-div{
+             padding: 2.5rem 2.5rem;
+         }
+  }
+  
+  /* ////////////////////////////////////////////////////////// */
+  
+  @media (min-width:767px)  and (max-width:799px){
+     .header-container h2{
+         font-size: 40px;
+        }
+        .circle-div{
+            width: 345px;
+         }
+ 
+         .square-div{
+             padding: 2.5rem 2.5rem;
+         }
+       
+  }
+  /* //////////////////////////////////////////////////// */
+  @media (min-width:620px) and (max-width:767px){
+    .header-container h2{
+        font-size: 30px;
+       }
+       .circle-div{
+           margin-right: 4rem;
+        }
+
+        .square-div{
+            padding: 2.5rem 2.5rem;
+        }
+      
+  }
+  
+  @media (min-width:500px) and (max-width:620px){
+     .header-container h2{
+         font-size: 25px;
+        }
+        .circle-div{
+            width: 345px;
+            margin: 1rem auto;
+        
+         }
+ 
+         .square-div{
+             padding: 2.5rem 2.5rem;
+         }
+         .offers-cntainer{
+            padding-top: 0;
+         }
+
+        
+  }
+  /* /////////////////////////////////////////////////// */
+  @media (min-width:400px) and (max-width:500px){
+     .header-container h2{
+         font-size: 22px;
+        }
+        .circle-div{
+            width: 345px;
+            margin:0.5rem auto;
+         }
+ 
+         .square-div{
+             padding: 2.5rem 2.5rem;
+         }
+
+         .offers-cntainer{
+            padding-top: 0;
+         }
+
+         .square-div h3 {
+            font-size: 21px;
+         }
+
+         .square-div ul li{
+            font-size: 16px;
+         }
+
+         .square-div a{
+            padding: 12px 36px;
+         }
+  }
+ 
+  @media (min-width:300px) and (max-width:400px){
+    .header-container h2{
+        font-size: 22px;
+       }
+       .circle-div{
+           width: 326px;
+           margin:0.5rem auto;
+        }
+
+        .square-div{
+            padding: 2.5rem 2.5rem;
+        }
+
+        .offers-cntainer{
+           padding-top: 0;
+        }
+
+        .square-div h3 {
+           font-size: 21px;
+        }
+
+        .square-div ul li{
+           font-size: 16px;
+        }
+
+        .square-div a{
+           padding: 12px 36px;
+        }
+  }

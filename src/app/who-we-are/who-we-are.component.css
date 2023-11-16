@@ -1,0 +1,367 @@
+.big-container{
+   
+    margin-bottom: 100px;
+    padding-top: 100px;
+}
+
+.who-are-content{
+    padding-right: 7rem;
+}
+
+.span-style{
+    font-size: 20px;
+    color: #ea512e;
+    font-weight: 600;
+}
+
+
+.h3-style{
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.para-style{
+    line-height: 1.8;
+    color: #6b6b84;
+    font-weight: 400;
+    font-size: 16px;
+}
+/*///////////////////////////////////////////////////////////////////////// */
+.div-number-content{
+   display: flex;
+   position: relative;
+   width: 50%;
+}
+.div-number-content .number span{
+    color: #ffffff;
+    background-color: #ea512e;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    top:-2px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 1s;
+    -webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+    -ms-transition: background-color 1s;
+    -o-transition: background-color 1s;
+  
+}
+
+
+.div-number-content .content p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #1b0238;
+    padding-right: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .div-number-content:hover .number span{
+   color: #ffffff;
+   background-color:#fd7e14 ;
+ }
+
+.divs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+
+
+/* /////////////////////////////////////////////////////////////////////////////////// */
+a{
+    text-decoration: none;
+}
+
+.learn-quran-now{
+    margin-top: 30px;
+
+}
+
+.link-style{
+    display: inline-block;
+    padding: 12px 40px;
+    background-color: #ea512e;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    cursor: pointer;
+}
+
+.link-style::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:  #f5890d;
+    height: 0%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    z-index: -1;
+    border-radius: 10px;
+
+}
+
+.link-style:hover{
+    color: #ffffff;
+}
+.link-style:hover::before{
+    height: 100%;
+}
+/* /////////////////////////////////////////////////////////////////////////// */
+
+img{
+    max-width: 100%;
+    display: inline-block;
+    height: auto;
+    vertical-align: middle;
+}
+
+.div-img1-style{
+    position: relative;
+    width: 590px;
+    margin-right: 68px;
+    z-index: 1;
+    text-align: center;
+}
+
+.div-img2-style{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    z-index: -1;
+    text-align: center;
+}
+
+
+/* ////////////////////////////////////////////// */
+@media (min-width:1220px) and  (max-width:1364px){
+   .div-img1-style{
+    width: 545px;
+    margin-right: 0;
+   }
+
+   .h3-style{
+    font-size: 41px;
+   }
+   
+        
+
+}
+
+/* //////////////////////////////////////////////////////// */
+
+@media (min-width:1100px) and (max-width:1220px){
+    .h3-style{
+        font-size: 35px;
+    }
+
+    .div-img1-style{
+        width: 526px;
+        margin-right: 0;
+       }
+    
+        
+
+}
+
+/* ///////////////////////////////////////////////////////// */
+@media (min-width:992px) and (max-width:1100px){
+    .div-img1-style{
+        width: 459px;
+        margin-right: 0;
+       }
+    
+       .h3-style{
+        font-size: 26px;
+    }
+
+    .para-style{
+        font-size: 15px;
+    }
+
+    }
+
+/* //////////////////////////////////////////// */
+
+@media (min-width:799px) and (max-width:992px){
+  
+    .h3-style{
+        font-size: 40px;
+    }
+    .div-img1-style{
+        margin-top: 7rem;
+       }
+
+
+       .who-are-content{
+        padding-left: 7rem;
+       }
+
+       .div-parent{
+        align-content: space-around;
+       }
+
+}
+
+/* ////////////////////////////////////////////////////////// */
+
+@media (min-width:620px)  and (max-width:799px){
+   
+    .div-img1-style{
+        margin-top: 7rem;
+       }
+
+    .h3-style{font-size: 30px;
+    
+    }   
+
+    .who-are-content{
+        padding-left: 7rem;
+        padding-right: 3rem;
+       }
+
+     
+
+       .div-img1-style{
+        width: 565px;
+        margin-right: 0;
+       }
+
+
+}
+/* //////////////////////////////////////////////////// */
+
+@media (min-width:500px) and (max-width:620px){
+    .div-img1-style{
+        margin-top: 7rem;
+       }
+
+    .h3-style{font-size: 25px;
+    
+    }   
+
+    .who-are-content{
+        padding-left: 7rem;
+        padding-right: 3rem;
+       }
+
+       
+
+       .div-img1-style{
+        width: 455px;
+        margin-right: 0;
+       }
+
+       .div-number-content{
+        width: 100%;
+       }
+       .divs{
+        margin-top: 1.5rem;
+       }
+
+}
+
+@media (min-width:400px) and (max-width:500px){
+   
+       .h3-style{
+        font-size: 22px;
+       }
+
+       .para-style{
+        font-size: 13px;
+        padding-left: 1rem;
+       }
+
+       .div-number-content{
+        width: 100%;
+       }
+       .div-number-content .content p{
+       font-size: 13px;
+       }
+       .divs{
+        margin-top: 1.5rem;
+       }
+
+       .div-img1-style{
+        
+        width: 315px;
+        margin-top: 4rem;
+    }
+
+    .who-are-content{
+        padding-right: 0px;
+    }
+
+   .link-style{
+    padding: 10px 20px;
+   }
+}
+
+@media (min-width:300px) and (max-width:400px){
+   
+    .h3-style{
+     font-size: 22px;
+    }
+
+    .para-style{
+     font-size: 13px;
+     padding-left: 1rem;
+    }
+
+    .div-number-content{
+     width: 100%;
+    }
+    .div-number-content .content p{
+    font-size: 13px;
+    }
+    .divs{
+     margin-top: 1.5rem;
+    }
+
+    .div-img1-style{
+     
+     width: 279px;
+     margin-top: 4rem;
+ }
+
+ .who-are-content{
+     padding-right: 0px;
+ }
+
+.link-style{
+ padding: 10px 20px;
+}
+}
