@@ -32,9 +32,6 @@ npm start
 ## It was built using
 angular - bootstrap - font awesome icon - swiper
 
-## Demo link
-https://65554909efc3db00818ec4cc--effervescent-semolina-28f5d7.netlify.app/
-
 ## Video
 https://drive.google.com/file/d/1mOtBZRKzYsGJPbwJrTPuE0wgBoP-Kfa3/view?usp=sharing
 ## Screenshots
